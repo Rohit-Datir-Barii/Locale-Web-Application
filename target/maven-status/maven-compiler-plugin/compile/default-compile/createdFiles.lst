@@ -1,0 +1,4 @@
+com\rd\service\ILocaleInfoService.class
+com\rd\controller\TestController.class
+com\rd\controller\LocaleOperationController.class
+com\rd\service\LocaleInfoServiceImpl.class

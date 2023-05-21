@@ -1,13 +1,13 @@
 <%@ page isELIgnored="false"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core"  prefix="c" %>
-
+<body style="background-color:powderblue;">
   <h1 style="color: red;text-align: center"> All  ${operation} Info (countries.jsp) </h1>
 <c:choose>
    <c:when test="${listInfo ne null && !empty listInfo   }">
-         <table align="center" bgcolor="pink">
+         <table align="center">
           <c:forEach var="country"  items="${listInfo}">
             <tr>
-               <td style="color:blue">${country} </td>
+               <td>${country} </td>
              </tr>
             </c:forEach>
          </table>
@@ -20,3 +20,4 @@
  <br>
  <br>
    <a href="welcome">home</a>
+</body>

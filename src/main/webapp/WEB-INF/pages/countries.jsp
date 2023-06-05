@@ -1,6 +1,6 @@
 <%@ page isELIgnored="false"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core"  prefix="c" %>
-<body style="background-color:cyan;">
+<body  style="background-color:khaki;">
   <h1 style="color: red;text-align: center"> All  ${operation} Info This is Blue Green Deplyment </h1>
 <c:choose>
    <c:when test="${listInfo ne null && !empty listInfo   }">

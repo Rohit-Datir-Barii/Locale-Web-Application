@@ -6,11 +6,8 @@
 <c:choose>
    <c:when test="${listInfo ne null && !empty listInfo   }">
          <table align="center" bgcolor="pink">
-          <c:forEach var="country"  items="${listInfo}">
+           <c:forEach var="country"  items="${listInfo}">
             <tr>
-               <td><h3>${country}</h3></td>
-            </tr>
-          </c:forEach>
                <td style="color:blue">${country} </td>
              </tr>
             </c:forEach>
